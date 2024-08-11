@@ -1,0 +1,57 @@
+.contact {
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 0;
+  background-color: #23828d; /* Background color */
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+.contact-content {
+  display: flex;
+  width: 100%; /* Take full width of the window */
+  height: 80%; /* Adjust height based on desired fit */
+  background-color: #23828d;
+}
+
+.contact-photo,
+.contact-info {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-photo {
+  justify-content: flex-start; /* Align photo to the start (left side) */
+}
+
+.contact-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contact-info {
+  padding: 20px;
+  background-color: Navy; /* Background color for the info section */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Evenly distribute contact items vertically */
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  margin-bottom: 20px; /* Add space between contact items */
+}
+
+.contact-item:last-child {
+  margin-bottom: 0; /* Remove margin from the last item */
+}

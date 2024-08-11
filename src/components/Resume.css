@@ -1,0 +1,17 @@
+.resume {
+  margin: 0;
+  padding: 0;
+  background-color: #23828d;
+  text-align: center;
+}
+
+.resume h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.resume iframe {
+  width: 100%;
+  height: 1000px;
+  border: none;
+}
